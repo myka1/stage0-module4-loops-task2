@@ -9,6 +9,5 @@ public class WordsBuilder {
             System.out.print(phrase.concat(temp));
             i++;
         }
-        
     }
 }

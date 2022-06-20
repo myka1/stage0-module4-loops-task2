@@ -18,8 +18,4 @@ public class Multiplication {
             }
         }
     }
-    public static void main(String[] args) {
-        Multiplication s = new Multiplication();
-        s.printMultiplied(-5);
-    }
 }

@@ -6,14 +6,12 @@ public class PrimeNumbers {
         while(i <= printToInclusive) {
             int j = i;
             int n = 0;
-
             while(j >= 1) {
                 if(i % j == 0){
                     n++;
                 }
                 j--;
             }
-
             if(n == 2){
                 System.out.println(i);
             }
