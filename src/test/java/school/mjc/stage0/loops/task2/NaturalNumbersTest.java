@@ -11,7 +11,7 @@ class NaturalNumbersTest extends BaseIOTest {
 
         naturalNumbers.naturalNumbersPrinter(9);
 
-        assertOutEquals("1\n2\n3\n4\n5\n6\n7\n8\n9\n");
+        assertOutEquals("0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n");
     }
 
     @Test
@@ -20,7 +20,7 @@ class NaturalNumbersTest extends BaseIOTest {
 
         naturalNumbers.naturalNumbersPrinter(20);
 
-        assertOutEquals("1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n");
+        assertOutEquals("0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n");
     }
 
     @Test
@@ -29,6 +29,6 @@ class NaturalNumbersTest extends BaseIOTest {
 
         naturalNumbers.naturalNumbersPrinter(0);
 
-        assertOutEquals("");
+        assertOutEquals("0\n");
     }
 }
